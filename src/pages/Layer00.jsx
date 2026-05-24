@@ -7,8 +7,8 @@ export function Layer00() {
       <div className="layer-header-banner layer00-theme">
         <div className="container">
           <div className="layer-badge">LAYER 00</div>
-          <h1 className="serif">安全確認</h1>
-          <p className="layer-subtitle">医療機関へつなぐサインを見逃さない</p>
+          <h1 className="serif">注意サインの確認</h1>
+          <p className="layer-subtitle">医療機関への相談が必要な場合を確認する</p>
         </div>
       </div>
 

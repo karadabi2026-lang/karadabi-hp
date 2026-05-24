@@ -185,7 +185,7 @@ export function Top() {
           {/* Layer Cards */}
           <a href="/layer00" className="layer-card layer-00">
             <div className="layer-header">LAYER 00</div>
-            <h4 className="layer-title">安全確認</h4>
+            <h4 className="layer-title">注意サインの確認</h4>
             <img src="/layer00.png" alt="LAYER 00" className="layer-image" />
             <p className="layer-desc">身体の状態を確認し、<br/>安全に進める土台をつくる</p>
             <span className="layer-link">詳細を見る →</span>
