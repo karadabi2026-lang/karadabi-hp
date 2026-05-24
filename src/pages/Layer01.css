@@ -1,0 +1,55 @@
+/* Reuse some styles from Layer00, but add specific ones here */
+.layer01-theme {
+  color: #00838f; /* Teal theme for Layer 01 */
+}
+
+.layer01-theme .layer-badge {
+  background-color: #00838f;
+}
+
+.obstacle-list {
+  list-style: none;
+  padding: 0;
+}
+
+.obstacle-list li {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border-left: 4px solid #00838f;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.symptoms-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.symptom-item {
+  background-color: #e0f7fa;
+  color: #006064;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b2ebf2;
+}
+
+/* Update sign card borders for layer 01 theme */
+.layer-page .layer01-theme ~ .section .sign-card {
+  border-top: 3px solid #00838f;
+}
+.layer-page .layer01-theme ~ .section .sign-num {
+  color: #00838f;
+}
+.layer-page .layer01-theme ~ .section .sign-card h4 {
+  color: #00838f;
+}

@@ -1,0 +1,100 @@
+.layer04-theme {
+  color: #8d6e63; /* Brown/Earthy theme for Layer 04 */
+}
+
+.layer04-theme .layer-badge {
+  background-color: #8d6e63;
+}
+
+.sense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sense-item {
+  background-color: #efebe9;
+  color: #5d4037;
+  padding: 12px 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sense-item span {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: #8d6e63;
+  opacity: 0.8;
+}
+
+.taishin-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.taishin-card {
+  background-color: #fff;
+  border: 1px solid var(--color-border);
+  padding: 20px 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.taishin-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.taishin-card h4 {
+  font-size: 1rem;
+  color: #8d6e63;
+  margin-bottom: 10px;
+}
+
+.taishin-card p {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+.routine-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.routine-item {
+  background-color: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.routine-item .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.routine-item h5 {
+  font-size: 0.9rem;
+  color: #8d6e63;
+  margin-bottom: 5px;
+}
+
+.routine-item p {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+}
+
+.layer-notice {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  margin-top: 40px;
+}
