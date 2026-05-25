@@ -72,11 +72,11 @@ button {
     grid-template-columns: 1fr;
   }
   
-  .signs-grid, .axis-grid, .cases-grid, .recommend-faq-grid, .taishin-grid, .routine-grid, .messages-section, .views-grid, .symptoms-grid {
+  .signs-grid, .axis-grid, .cases-grid, .recommend-faq-grid, .taishin-grid, .routine-grid, .messages-section, .views-grid, .symptoms-grid, .elements-grid {
     grid-template-columns: 1fr !important;
   }
 
-  .flow-steps, .encompass-features {
+  .flow-steps, .encompass-features, .axis-grid, .ba-grid {
     flex-direction: column;
     align-items: stretch;
   }
