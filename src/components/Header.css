@@ -75,3 +75,23 @@
   border-radius: 20px;
   font-size: 0.9rem;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none; /* スマホではヘッダーメニューを隠す */
+  }
+  
+  .header-actions {
+    display: none; /* スマホでは予約ボタンも一旦隠してスッキリさせる（必要に応じてハンバーガーメニュー等に変更） */
+  }
+
+  .logo-main {
+    font-size: 1.2rem;
+  }
+
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+  }
+}

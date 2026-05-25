@@ -362,3 +362,65 @@
   color: var(--color-accent);
   font-weight: bold;
 }
+
+/* Responsive Styles for Top Page */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-catchphrase {
+    font-size: 2rem;
+  }
+
+  .hero-badge {
+    width: 120px;
+    height: 120px;
+    top: -15px;
+    right: -15px;
+  }
+
+  .hero-badge h3 {
+    font-size: 0.9rem;
+  }
+
+  .hero-badge p {
+    font-size: 0.6rem;
+  }
+
+  .warning-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .concept-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .concept-features {
+    grid-template-columns: 1fr;
+  }
+
+  .courses-grid, .layers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .roadmap-steps {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .step-arrow {
+    transform: rotate(90deg);
+  }
+}
